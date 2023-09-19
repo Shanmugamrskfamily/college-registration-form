@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Sholorship Registration Form</title>
+  </head>
+  <body>
+    <nav align="center">
+      <h2><a href="./index.html">Home</a></h2>
+    </nav>
+    <div align="center">
+      <img src="./Assets/sholorships.jpg" alt="Scholarship Image" />
+    </div>
+    <h1 align="center" id="registration-form">Scholarship Registration Form</h1>
+    <form action="#" method="post" align="center">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required /><br /><br />
+
+      <label for="course">Course of Interest:</label>
+      <select id="course" name="course" required>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Electrical Engineering">Electrical Engineering</option>
+        <option value="Mechanical Engineering">Mechanical Engineering</option>
+        <option value="Chemical Engineering">Chemical Engineering</option>
+        <option value="Civil Engineering">Civil Engineering</option></select
+      ><br /><br />
+
+      <label for="photo">Upload Your Photo:</label>
+      <input
+        type="file"
+        id="photo"
+        name="photo"
+        accept="image/*"
+        required /><br /><br />
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required /><br /><br />
+
+      <label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="Male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="Female" />
+      <label for="female">Female</label><br /><br />
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" required></textarea><br /><br />
+
+      <label for="resume">Upload Resume:</label>
+      <input
+        type="file"
+        id="resume"
+        name="resume"
+        accept=".pdf,.doc,.docx"
+        required /><br /><br />
+
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+    <hr />
+    <footer>
+      <p>Contact us: shanmugamrskfamily@gmail.com</p>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/shanmugamrskfamily/">LinkedIn</a>
+      </div>
+    </footer>
+  </body>
+</html>
